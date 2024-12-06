@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Trangchu"
+    android:background="@color/color_BackGround_btnNavigation"
+    >
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Truyền Hình Thực Tế"
+                android:textSize="38sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/color_MyFav"
+                />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_fr_tvShow"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</FrameLayout>

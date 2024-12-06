@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Trangchu"
+    android:background="@color/color_BackGround_btnNavigation">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- CardView chứa slider -->
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to NTTMovie"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:textSize="26sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/color_MyFav"
+                />
+            <ImageButton
+                android:id="@+id/btn_find_movies"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_find"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                />
+            <ImageButton
+                android:id="@+id/btn_favorite"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_favblack"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                />
+            <ImageButton
+                android:id="@+id/btn_notify"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_notify"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp">
+
+            <!-- ViewPager cho slider -->
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager_imgAutoChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Indicator cho ViewPager -->
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/circle_Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Các phần còn lại trong layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="4dp"
+            android:text="TRENDING MOVIES"
+            android:textColor="@color/color_MyFav"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="NEW MOVIES"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_MyFav" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_newPhim"
+            android:layout_width="match_parent"
+            android:layout_height="249dp" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

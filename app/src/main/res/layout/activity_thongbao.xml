@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_thongbao"
+    android:orientation="vertical"
+    android:background="@color/color_BackGround_btnNavigation">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout để chứa toàn bộ nội dung -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:id="@+id/btn_back_thongbao"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Quay Lại"
+                    android:textColor="#FFF"
+                    android:padding="3dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:padding="6dp"
+                android:text="Thông Báo Mới Nhất"
+                android:textColor="@color/color_MyFav"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="24sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Phim Mới Ra Mắt"/>
+
+            <!-- RecyclerView không nên nằm trong ScrollView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_thongbao_phimmoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:nestedScrollingEnabled="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="24sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Phim Sắp Ra Mắt"/>
+
+            <!-- RecyclerView thứ hai không nên nằm trong ScrollView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_thongbao_sapra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

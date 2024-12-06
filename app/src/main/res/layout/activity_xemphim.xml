@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Xemphim">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:id="@+id/icon_back_screen"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Quay Lại"
+                    android:textColor="#888"
+                    android:padding="3dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="80dp"
+                android:text="Chúc Bạn Xem Phim Vui Vẻ"
+                android:textColor="@color/color_MyFav"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_screen_tenphim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn đang xem phim.."
+                android:layout_gravity="center"
+                android:textSize="26sp"
+                android:textColor="@color/color_MyFav"
+                />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center">
+            </VideoView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tăng giảm âm lượng: "
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/seebar_thumb"
+                    android:progressDrawable="@drawable/seekbar_progress"
+                    android:layout_gravity="center_vertical"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

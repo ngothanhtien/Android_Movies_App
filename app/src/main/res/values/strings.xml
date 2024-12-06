@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">AppXemPhim_Final</string>
+    <string name="action_home">Trang Chủ</string>
+    <string name="action_movies">Phim Lẻ</string>
+    <string name="action_movie_series">Phim Bộ</string>
+    <string name="action_tvshow">Truyền Hình</string>
+    <string name="action_account">Tài Khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--1-->
+    <!--Mô tả movies phim-->
+
+    <!--Nội dung-->
+    <string name="mota_aquaman">Aquaman: Đế vương Atlantis là phim điện ảnh siêu anh hùng của Mỹ dựa trên nhân vật Aquaman của DC Comics. Đây là phim thứ sáu của DC Extended Universe, do James Wan đảm nhiệm vai trò đạo diễn, David Leslie Johnson-McGoldrick và Will Beall thực hiện phần kịch bản từ phần cốt truyện của Wan, Beall và Geoff Johns.</string>
+    <string name="mota_fast3">The Fast and the Furious: Tokyo Drift là bộ phim chiếu rạp năm 2006 được Justin Lin đạo diễn, là phần 3 của loạt phim The Fast and the Furious. Phim được dàn dựng tại một địa điểm hoàn toàn khác chính là Tokyo, Nhật Bản với dàn diễn viên mới toanh so với hai phần phim trước.</string>
+    <string name="mota_fast4">Fast and Furious (còn được gọi là Fast and Furious 4 và Wild Speed tại Nhật Bản ) là một bộ phim hành động năm 2009 do Justin Lin đạo diễn và Chris Morgan viết kịch bản. Đây là phần tiếp theo trực tiếp của The Fast and the Furious (2001) và 2 Fast 2 Furious (2003) cũng như là phần thứ tư trong loạt phim Fast and Furious . </string>
+    <string name="mota_fast5">Fast and Furious 5: Phi vụ Rio kể về hành trình của Dominic Toretto (Vin Diesel), Brian OConner (Paul Walker), và Mia Toretto (Jordana Brewster) khi họ lên kế hoạch đi cướp 100 triệu USD từ một thương nhân ăn hối lộ tên là Hernan Reyes (Joaquim de Almeida), dưới sự truy bắt của đặc vụ Cục An ninh Ngoại giao Hoa Kỳ Luke Hobbs (Dwayne Johnson).</string>
+    <string name="mota_fast6">Fast and Furious 6 nói về một băng nhóm tội phạm chuyên nghiệp dẫn đầu bởi Dominic Toretto và (Vin Diesel),người đã giải nghệ sau vụ cướp thành công của băng nhóm trong Fast and Furious Five (2011),nhưng vẫn còn là một tên tội phạm bị truy nã.</string>
+    <string name="mota_fast7">Đây là phần tiếp theo của Fast and Furious 6 (2013): Trong phim, Dominic Toretto , Brian OConner và nhóm của họ được thủ lĩnh hoạt động bí mật Mr. Nobody chiêu mộ để ngăn chặn Mose Jakande, một tên khủng bố, có được một chương trình hack, nhưng Deckard Shaw , một cựu chiến binh lực lượng đặc biệt tìm cách trả thù cho người em trai đang hôn mê Owen Shaw, đã đưa cả nhóm vào tình thế nguy hiểm.</string>
+    <string name="mota_fast8">Fast and Furious 8 tiếp tục câu chuyện về Dominic Toretto và cuộc sống yên bình của anh với người vợ Letty, cho đến khi anh bị trùm tin tặc Cipher ép buộc phải đổi phe và phản bội lại những người đồng đội mà anh từng gọi là gia đình, buộc họ phải đuổi theo Dom và hạ gục Cipher.</string>
+    <string name="mota_fast9">Fast and Furious 9: Huyền Thoại Tốc Độ (tên gốc tiếng Anh: F9: The Fast Saga hoặc Fast and Furious 9): Trong phim, Dominic "Dom" Toretto (Vin Diesel) và gia đình của anh phải đối mặt với một kẻ thù nguy hiểm mới tên Jakob (John Cena), em trai của Dom, cũng như mối đe dọa cũ của họ là Cipher (Charlize Theron). </string>
+    <string name="mota_fastx">Fast and Furious X (tiếng Anh: Fast X) là một bộ phim điện ảnh Mỹ thuộc thể loại hành động công chiếu vào năm 2023 do Louis Leterrier làm đạo diễn, với phần kịch bản do Justin Lin và Dan Mazeau chắp bút. Là phần hậu truyện của Fast and Furious 9: Huyền thoại tốc độ (2021), phần phim thứ 10 trong mạch truyện chính, và là phần phim thứ 11 trong loạt phim Fast and Furious nói chung</string>
+    <string name="mota_kegiamho">Sau 10 năm ngồi tù thay cho ông chủ xã hội đen, sát thủ Soo Hyuk quyết tâm rút lui ở ẩn. Với dã tâm sử dụng Soo Hyuk như một công cụ giết người máu lạnh, tay trùm xã hội đen đã mở màn một cuộc tàn sát khiến giấc mơ về tổ ấm bình dị của anh hóa thành cơn ác mộng.</string>
+    <string name="mota_mai">Mai (viết cách điệu: MɅI) là một bộ phim điện ảnh Việt Nam thuộc thể loại hài – lãng mạn – chính kịch ra mắt vào năm 2024 do Trấn Thành làm đạo diễn và đồng sản xuất, đánh dấu đây là bộ phim điện ảnh thứ ba anh làm đạo diễn, sau Bố già và Nhà bà Nữ.</string>
+    <string name="mota_shawshank">The Shawshank Redemption là bộ phim chính kịch - tâm lý của Hoa Kỳ phát hành vào ngày 22 tháng 9 năm 1994, Bộ phim khắc họa nhân vật Andy sống gần hai thập kỷ trong Nhà tù Shawshank cấp tiểu bang, một nhà tù hư cấu tại Maine, và tình bạn của anh với Red, một người bạn tù. Bộ phim này là một thí dụ điển hình cho khoảng cách tiềm ẩn giữa thành công bước đầu tại các rạp chiếu phim và sự nổi tiếng rực rỡ. </string>
+
+    <!-- Diễn viên -->
+    <string name="dv_aquaman">Jason Momoa, Amber Heard, Willem Dafoe, Nicole Kidman, ...  </string>
+    <string name="dv_fast3">Lucas Black, Bow Wow, Nathalie Kelley, ... </string>
+    <string name="dv_fast4">Vin Diesel, Paul Walker, Jordana Brewster,Michelle Rodriguez ... </string>
+    <string name="dv_fast5">Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, ... </string>
+    <string name="dv_fast6">Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, ... </string>
+    <string name="dv_fast7">Vin Diesel, Paul Walker, Jason Statham, Michelle Rodriguez, ... </string>
+    <string name="dv_fast8">Vin Diesel, Dwayne Johnson, Charlize Theron, Michelle Rodriguez, ... </string>
+    <string name="dv_fast9">Vin Diesel, John Cena, Charlize Theron, Michelle Rodriguez, ... </string>
+    <string name="dv_fastx">Vin Diesel, Jason Momoa, Michelle Rodriguez, Charlize Theron, ... </string>
+    <string name="dv_kegiamho">Jang Hyuk, Park Ji-yeon, Park Hae-soo, ... </string>
+    <string name="dv_mai">Trấn Thành, Phương Anh Đào, Tuấn Trần, Khả Như, Anh Đức, Việt Anh, ... </string>
+    <string name="dv_shawshank">Tim Robbins, Morgan Freeman, Bob Gunton, ... </string>
+
+    <!-- Ngày phát hành -->
+    <string name="rel_aquaman">21/12/2018</string>
+    <string name="rel_fast3">16/06/2006</string>
+    <string name="rel_fast4">03/04/2009</string>
+    <string name="rel_fast5">29/04/2011</string>
+    <string name="rel_fast6">24/05/2013</string>
+    <string name="rel_fast7">03/04/2015</string>
+    <string name="rel_fast8">14/04/2017</string>
+    <string name="rel_fast9">25/06/2021</string>
+    <string name="rel_fastx">19/05/2023</string>
+    <string name="rel_kegiamho">27/07/2022</string>
+    <string name="rel_mai">10/02/2024</string>
+    <string name="rel_shawshank">22/09/1994</string>
+
+    <!-- Thời lượng -->
+    <integer name="time_aquaman">143</integer>
+    <integer name="time_fast3">104</integer>
+    <integer name="time_fast4">107</integer>
+    <integer name="time_fast5">130</integer>
+    <integer name="time_fast6">130</integer>
+    <integer name="time_fast7">137</integer>
+    <integer name="time_fast8">136</integer>
+    <integer name="time_fast9">143</integer>
+    <integer name="time_fastx">141</integer>
+    <integer name="time_kegiamho">126</integer>
+    <integer name="time_mai">131</integer>
+    <integer name="time_shawshank">142</integer>
+
+    <!--2-->
+    <!--Mô tả movies series phim-->
+    <!--Nội dung-->
+    <string name="mota_chosancongly">Chó Săn Công Lý – Bloodhounds (2023) nói về hai võ sĩ trẻ bắt tay với một người cho vay nhân từ để hạ bệ kẻ cho vay nặng lãi tàn nhẫn chuyên săn lùng những người túng quẫn tài chính.</string>
+    <string name="mota_moneyheist">Phi vụ triệu đô (tựa tiếng Anh: Money Heist, tựa gốc tiếng Tây Ban Nha: La casa de papel, [la ˈkasa ðe paˈpel]) là một bộ phim truyền hình chính kịch tội phạm đề tài trộm cướp của Tây Ban Nha do Álex Pina sáng tạo. Loạt phim xoay quanh hai vụ cướp, một ở Xưởng in tiền Hoàng gia Tây Ban Nha và một ở Ngân hàng Tây Ban Nha, do Giáo sư (Álvaro Morte) lên kế hoạch từ lâu và nắm quyền lãnh đạo.</string>
+    <string name="mota_queenoftears">Nữ hoàng nước mắt xoay quanh câu chuyện hôn nhân giữa Hong Hae-in, tiểu thư tài phiệt đời thứ ba của Tập đoàn Queens và Baek Hyun-woo, giám đốc pháp lý của Tập đoàn Queens. Chuyện tình cảm của cả hai những ngày đầu đẹp như truyện cổ tích, khi "chàng Lọ Lem" đã chinh phục được trái tim của "nàng hoàng tử"</string>
+    <string name="mota_squidgame">Trò chơi con mực kể về một nhóm 456 người mạo hiểm tính mạng trong 6 trò chơi sinh tồn để nhận được tổng số tiền 45,6 tỷ Won. Tên phim được lấy từ một trò chơi dân gian của Hàn Quốc trong quá khứ. Hwang Dong-hyuk đã hình thành ý tưởng này dựa trên những khó khăn tài chính của bản thân khi còn nhỏ, cũng như sự chênh lệch giai cấp ở Hàn Quốc.</string>
+    <string name="mota_vincenzo">Vincenzo kể về chàng trai Park Joo-hyung (Song Joong-ki) đến Ý sau khi được một gia đình người Ý nhận nuôi. Sau đó anh gia nhập băng đảng Mafia, nơi anh được Don Fabio - người đứng đầu gia tộc Cassano nhận nuôi. Park Joo-hyung được đổi tên thành Vincenzo Cassano và trở thành luật sư người Ý. Anh làm việc cho Mafia với tư cách là một cố vấn và là cánh tay phải đáng tin cậy nhất của Don Fabio.  </string>
+    <string name="mota_wandavision">WandaVision là một bộ phim truyền hình ngắn tập Mỹ do Jac Schaeffer sáng lập và được phát sóng trên nền tảng phát trực tuyến Disney+. Bộ phim dựa vào các nhân vật đến từ truyện tranh Marvel Comics gồm Wanda Maximoff / Phù thủy đỏ và Vision.</string>
+
+    <!-- Diễn viên -->
+    <string name="dv_chosancongly">Woo Do-hwan, Lee Sang-yi ... , Park Ji-yeon</string>
+    <string name="dv_moneyheist">Álvaro Morte, Úrsula Corberó, Itziar Ituño, Pedro Alonso, Antonio Banderas ... </string>
+    <string name="dv_queenoftears">Kim Tae-hee, Kim Nam-joo, ... </string>
+    <string name="dv_squidgame">Lee Jung-jae, Park Hae-soo, Wi Ha-joon, ...</string>
+    <string name="dv_vincenzo">Song Joong-ki, Jeon Yeo-been, Ok Taec-yeon, ... </string>
+    <string name="dv_wandavision">Elizabeth Olsen, Paul Bettany, ... </string>
+
+    <!-- Ngày phát hành -->
+    <string name="rel_chosancongly">09/06/2023</string>
+    <string name="rel_moneyheist">02/05/2017</string>
+    <string name="rel_queenoftears">2023</string>
+    <string name="rel_squidgame">17/09/2021</string>
+    <string name="rel_vincenzo">20/02/2021</string>
+    <string name="rel_wandavision">15/01/2021</string>
+
+    <!-- Thời lượng -->
+    <integer name="time_chosancongly">65</integer>
+    <integer name="time_moneyheist">72</integer>
+    <integer name="time_queenoftears">79</integer>
+    <integer name="time_squidgame">83</integer>
+    <integer name="time_vincenzo">77</integer>
+    <integer name="time_wandavision">70</integer>
+    <!--3-->
+    <!--Mô tả tvshow-->
+    <!--Nội dung-->
+    <string name="mota_familyouting">Family Outing (Hangul: 패밀리가 떴다) (được hiểu là Gia đình Đi Dã Ngoại hay Dã Ngoại Gia đình) là chương trình truyền hình tạp kỹ thực tế của Hàn Quốc; là một phần trong tổng thể chương trình Good Sunday của kênh truyền hình SBS cùng với chương trình liền sau là Gold Miss is Coming (골드미스가 간다). Được phát sóng lần đầu tiên vào ngày 15 tháng 6 năm 2008.</string>
+    <string name="mota_gieogigatnay">Gieo Gì Gặt Nấy - GBRB Reap What You Sow xoay quanh hành trình bỏ phố về vườn đầy vui nhộn, hài hước của dàn sao nam Lee Kwang Soo, D.O. (EXO), Kim Woo Bin và Kim Ki Bang. Trong các anh này chẳng ai có kinh nghiệm về việc trồng trọt nên chương trình hứa hẹn sẽ mang lại những tiếng cười khi các thành viên.</string>
+    <string name="mota_runningman">Các thành viên chính thức của chương trình và khách mời cùng tham gia trò chơi và làm nhiệm vụ để giành chiến thắng trong mỗi cuộc đua. Chương trình đã thay đổi nhiều và tập trung nhiều hơn vào các trò chơi nằm mang lại sự giải trí cho người xem.</string>
+    <string name="mota_showmethemoney">Show Me The Money (SMTM) là một chương trình cạnh tranh về rap được phát sóng trên kênh truyền hình Mnet. Chương trình phổ biến ngay từ mùa đầu tiên vào năm 2012. Thông qua chương trình này, sự quan tâm của công chúng đến hip hop Hàn Quốc ngày càng tăng.</string>
+    <string name="mota_steveharveyshow">The Steve Harvey Show là một bộ phim hài truyền hình Mỹ do Winifred Hervey sáng tạo và Stan Lathan đạo diễn, phát sóng trên The WB từ ngày 25 tháng 8 năm 1996 đến ngày 17 tháng 2 năm 2002, với tổng cộng 122 tập phim, mỗi tập dài nửa giờ, kéo dài sáu mùa.</string>
+    <string name="mota_tantayduky">Trong mùa 1, chương trình là sự tái hợp của các thành viên 2 Ngày va 1 Đêm mùa 1 Lee Seung-gi, Kang Ho-dong, Eun Ji-won, và Lee Su-geun. Mỗi người trong bốn thành viên chọn một nhân vật trong tiểu thuyết cổ “Tây Du Ký” của Trung Quốc để bắt đầu chuyến du lịch bụi 5 ngày và 4 đêm từ Tây An, Trung Quốc.</string>
+
+    <!-- Diễn viên -->
+    <string name="dv_familyouting">Yoo Jae-suk, Lee Hyo-ri, Kim Soo-ro, Yoon Jong-shin, Daesung, Kim Jong-kook, ... </string>
+    <string name="dv_gieogigatnay">Lee Kwang-soo, D.O. (EXO), Kim Woo-bin, Kim Ki-bang</string>
+    <string name="dv_runningman">Yoo Jae-suk, Kim Jong-kook, Ha Dong-hoon, Ji Suk-jin, Lee Kwang-soo, Song Ji-hyo, Kang Ga-ry</string>
+    <string name="dv_showmethemoney">MC Meta, Tiger JK, Verbal Jint, Yoon Mi-rae, Jay Park, ... </string>
+    <string name="dv_steveharveyshow">Steve Harvey, Cedric the Entertainer, Merlin Santana, William Lee Scott, ... </string>
+    <string name="dv_tantayduky">Kang Ho-dong, Lee Seung-gi, Eun Ji-won, Lee Su-geun, ... </string>
+
+    <!-- Ngày phát hành -->
+    <string name="rel_familyouting">15-06-2008</string>
+    <string name="rel_gieogigatnay">05-08-2023</string>
+    <string name="rel_runningman">11-07-2010</string>
+    <string name="rel_showmethemoney">22-06-2012</string>
+    <string name="rel_steveharveyshow">25-08-1996</string>
+    <string name="rel_tantayduky">04-05-2015</string>
+
+    <!-- Thời lượng (phút) -->
+    <integer name="time_familyouting">85</integer>
+    <integer name="time_gieogigatnay">70</integer>
+    <integer name="time_runningman">95</integer>
+    <integer name="time_showmethemoney">60</integer>
+    <integer name="time_steveharveyshow">30</integer>
+    <integer name="time_tantayduky">59</integer>
+
+</resources>

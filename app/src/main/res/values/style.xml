@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonText">
+        <item name="android:textColor">#FFFFFF</item> <!-- Màu chữ -->
+        <item name="android:textSize">18sp</item> <!-- Kích thước chữ -->
+        <item name="android:textStyle">bold</item> <!-- Kiểu chữ -->
+    </style>
+</resources>

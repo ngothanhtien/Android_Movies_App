@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/black">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+            <ImageButton
+                android:id="@+id/btn_sub_back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Quay Lại"
+                android:textColor="#888"
+                android:padding="3dp"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+            <ImageView
+                android:id="@+id/img_sub_details"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/movies_fast7"
+                android:scaleType="centerCrop"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_sub_play"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/icon_circle"
+                android:background="@android:color/transparent"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/txt_sub_tenPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên Phim"
+            android:padding="6dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="7dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm vào yêu thích: "
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:padding="4sp"
+                />
+            <ImageButton
+                android:id="@+id/btn_add_favoriteMovie"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_add2"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nôi Dung:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txt_sub_moTaPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:padding="6dp"
+            android:text="Mô tả"
+            android:textAlignment="viewStart"
+            android:textColor="#707476"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diễn Viên:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/txt_sub_dienVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diễn viên"
+            android:textSize="20sp"
+            android:padding="6dp"
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            android:textColor="#707476"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày Phát Hành:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/txt_sub_NgayPhatHanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày phát hành"
+            android:textSize="20sp"
+            android:padding="6dp"
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            android:textColor="#707476"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời Lượng:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/txt_sub_thoiLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thời Lượng"
+            android:textSize="20sp"
+            android:padding="6dp"
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            android:textColor="#707476"/>
+    </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

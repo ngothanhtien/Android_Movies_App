@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/icon_home"
+        android:title="@string/action_home"
+        />
+    <item
+        android:id="@+id/action_movies"
+        android:icon="@drawable/icon_phimle"
+        android:title="@string/action_movies"
+        />
+    <item
+        android:id="@+id/action_movie_series"
+        android:icon="@drawable/icon_phimbo"
+        android:title="@string/action_movie_series"
+        />
+    <item
+        android:id="@+id/action_tvshow"
+        android:icon="@drawable/icon_truyenhinh"
+        android:title="@string/action_tvshow"
+        />
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/icon_person"
+        android:title="@string/action_account"
+        />
+</menu>

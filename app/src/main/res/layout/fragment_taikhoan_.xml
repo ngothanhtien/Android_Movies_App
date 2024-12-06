@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_Taikhoan"
+    android:background="@color/color_BackGround_btnNavigation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_user"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="Thông Tin Tài Khoản"
+            android:textSize="26sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:textColor="#00BCD4"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tài khoản: "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Tên tài khoản"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/btn_doiTK"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="Thay đổi"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD154"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Mật khẩu : "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_password"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Mật khẩu"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/btn_doiMK"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="Thay đổi"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD154" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Gmail       : "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_gmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Gmail"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Mã Code : "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Mã code"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="Thông Tin Liên Hệ Thêm"
+            android:textSize="26sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:textColor="#00BCD4"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số ĐT       : "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/txt_sdt"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="số điện thoại"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/btn_ThemSoDt"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="Thêm"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD154" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Địa chỉ     : "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_diachi"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="địa chỉ"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/btn_ThemDC"
+                android:layout_width="107dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="Thêm"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD154" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_saveAccount"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="Lưu"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD154" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:text="Đăng Xuất"
+            android:textSize="22sp"
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@null"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+</FrameLayout>

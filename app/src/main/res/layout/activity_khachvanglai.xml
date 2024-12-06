@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Khachvanglai"
+    android:orientation="vertical"
+    android:background="@color/color_BackGround_btnNavigation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Đăng nhập để xem nhiều phim hơn"
+            android:padding="4dp"
+            android:textColor="#E0DEDA"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn_dangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:padding="4dp"
+            android:text="Đăng nhập"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="PHIM HOT THANG 11"
+        android:padding="4dp"
+        android:textColor="@color/color_MyFav"
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_another_user"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
